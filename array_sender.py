@@ -1,9 +1,9 @@
 import socket
 import numpy
 
-UDP_IP = "192.168.1.1"
+UDP_IP = "192.168.1.2"
 UDP_PORT = 5005
-MESSAGE = numpy.random.rand(3, 2)
+MESSAGE = numpy.random.rand(3000, 2)
 
 print("UDP target IP:", UDP_IP)
 print("UDP target port:", UDP_PORT)
